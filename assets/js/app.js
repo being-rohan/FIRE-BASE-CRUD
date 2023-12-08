@@ -128,6 +128,9 @@ const ondelete = (ele) => {
 		.catch((err) => {
 			cl(err)
 		})
+		.finally(() => {
+			postformcontrol.reset();
+		})
 }
 const createcard = (eve) => {
 	let card2 = document.createElement('div');
@@ -207,9 +210,7 @@ const onedit = (ele) => {
 		.catch((err) => {
 			cl(err)
 		})
-	// 		.finally(() => {
-	// 			postformcontrol.reset();
-	// 		})
+			
 }
 
 const tempalting = (ele) => {
