@@ -1,0 +1,46 @@
+.body {
+    background-image: linear-gradient(90deg, #DECBA4, #3E5151);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1 {
+    background-image: linear-gradient(90deg, #434343 0%, rgb(0, 0, 0, 0.3));
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+/* /* 
+.card{
+    background-image: linear-gradient(to left, #DECBA4, rgb(62, 81, 81,0.5));
+    color: white; */
+/* } */
+
+.card {
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to left, #DECBA4, #3E5151);
+
+}
+
+div#card {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.loader{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
