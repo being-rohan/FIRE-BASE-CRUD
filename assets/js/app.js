@@ -135,22 +135,22 @@ const ondelete = (ele) => {
 const createcard = (eve) => {
 	let card2 = document.createElement('div');
 	cl(card2)
-	card2.className = 'card mb-4';
+	card2.className = 'card mb-4 background';
 
 	card2.id = eve.id;
 
 	card2.innerHTML = `
-	 <div class="card-header background">
+	 <div class="card-header">
 					<h1>
 					   ${eve.title}
 					</h1>
 				</div>
-				<div class="card-body background">
+				<div class="card-body">
 					<p>
 					${eve.body}
 					 </p>
 				</div>
-				<div class="card-footer d-flex justify-content-between background">
+				<div class="card-footer d-flex justify-content-between">
 					<button class="btn btn-outline-secondary cl" onclick="onedit(this)"> edit</button>
 					<button class="btn btn-outline-secondary cl"onclick="ondelete(this)"> delete</button>
 				</div>

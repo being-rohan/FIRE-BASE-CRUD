@@ -5,6 +5,7 @@
     /* height: 100%; */
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 
 .h1 {
