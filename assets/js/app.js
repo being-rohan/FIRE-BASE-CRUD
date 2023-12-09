@@ -140,19 +140,19 @@ const createcard = (eve) => {
 	card2.id = eve.id;
 
 	card2.innerHTML = `
-	 <div class="card-header">
+	 <div class="card-header background">
 					<h1>
 					   ${eve.title}
 					</h1>
 				</div>
-				<div class="card-body">
+				<div class="card-body background">
 					<p>
 					${eve.body}
 					 </p>
 				</div>
-				<div class="card-footer d-flex justify-content-between">
-					<button class="btn btn-primary" onclick="onedit(this)"> edit</button>
-					<button class="btn btn-danger"onclick="ondelete(this)"> delete</button>
+				<div class="card-footer d-flex justify-content-between background">
+					<button class="btn btn-outline-secondary cl" onclick="onedit(this)"> edit</button>
+					<button class="btn btn-outline-secondary cl"onclick="ondelete(this)"> delete</button>
 				</div>
 	 `
 
